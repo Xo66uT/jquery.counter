@@ -1,0 +1,59 @@
+div.ds-input {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+div.ds-input input {
+	border: 0;
+	background-color:transparent;
+	height: 28px;
+	line-height: 28px;
+	font-family: Georgia;
+	font-size: 14px;
+	color: #5a5a5a;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+div.ds-input div.ds-input-left {
+	float: left;
+	background-image:url('images/input_left.png');
+	background-repeat:no-repeat;
+	width: 5px;
+	height: 28px;
+}
+
+div.ds-input div.ds-input-input {
+	float: left;	
+	background-image:url('images/input_spacer.png');
+	background-repeat: repeat-x;
+	height: 28px;
+}
+
+div.ds-input div.ds-input-right {
+	float: left;
+	background-image:url('images/input_right.png');
+	background-repeat:no-repeat;
+	width: 5px;
+	height: 28px;
+}
+div.ds-buttons {
+	float: left;
+	margin-left: 5px;
+}
+
+div.ds-button-inc {
+	cursor:pointer;
+	background-image:url('images/buy_counter_plus.png');
+	background-repeat:no-repeat;
+	width: 14px;
+	height: 14px;
+}
+
+div.ds-button-dec {
+	cursor:pointer;
+	background-image:url('images/buy_counter_minus.png');
+	background-repeat:no-repeat;
+	width: 14px;
+	height: 14px;
+}
