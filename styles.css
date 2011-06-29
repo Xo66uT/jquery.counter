@@ -1,6 +1,13 @@
 div.main {
 	width:1000px;
 	margin:auto;
-	text-align:center;
 	margin-top:200px;
+}
+
+table.table {
+	width:600px;
+}
+
+table.table th {
+	text-align:left;	
 }
